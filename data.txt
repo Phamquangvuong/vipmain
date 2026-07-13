@@ -1,0 +1,27 @@
+# data.txt - Dữ liệu mẫu cho Profile (có thể mở rộng)
+# Format: key|value hoặc project=== blocks
+# Dễ dàng chỉnh sửa và parse bằng JS nếu muốn dynamic sau này
+
+name|Phạm Quang Vương
+nickname|kingsore
+role|Fullstack Developer & Digital Entrepreneur
+location|TP. Hồ Chí Minh, Việt Nam
+email|phamquangvuong.dev@gmail.com
+phone|0975868667
+zalo|0975868667
+telegram|@kingsore
+github|https://github.com/QuangVngPhfdwp
+website|https://shop-mmo-phamquangvuong.vercel.app
+
+bio|Passionate Fullstack Developer building premium digital experiences with vanilla technologies. Owner of SHOP MMO - the leading platform for digital accounts, VPNs and streaming subscriptions in Vietnam. Love cyberpunk aesthetics, clean code and glassmorphism interfaces.
+
+bank_name|Techcombank
+bank_account|1234503028386
+bank_owner|PHAM QUANG VUONG
+bank_branch|TP. Hồ Chí Minh
+
+project_1|SHOP MMO Ecommerce|Full vanilla ecommerce for digital goods|https://github.com/QuangVngPhfdwp/shop-mmo|https://shop-mmo-phamquangvuong.vercel.app
+project_2|Discord Automation Bot|Auto delivery & management system|https://github.com/QuangVngPhfdwp/discord-shop-bot|#
+project_3|Cyberpunk Portfolio|This premium neon glassmorphism site|https://github.com/QuangVngPhfdwp/cyberpunk-portfolio|#
+
+# Add more projects or data as needed. Parse with fetch + split('|') in future versions.
