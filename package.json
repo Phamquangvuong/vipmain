@@ -1,0 +1,25 @@
+{
+  "name": "pham-quang-vuong-profile",
+  "version": "1.0.0",
+  "description": "Premium Cyberpunk Portfolio - Phạm Quang Vương",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": [
+    "portfolio",
+    "cyberpunk",
+    "glassmorphism",
+    "neon",
+    "developer"
+  ],
+  "author": "Phạm Quang Vương",
+  "license": "MIT"
+}
